@@ -1,0 +1,143 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"19 C:\Users\NoName\Desktop\MPLAB/lcd.c
+[v _LCD LCD `(v  1 e 1 0 ]
+"32
+[v _LCD_Begin LCD_Begin `(v  1 e 1 0 ]
+"75
+[v _LCD_Goto LCD_Goto `(v  1 e 1 0 ]
+"88
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"102
+[v _LCD_PutS LCD_PutS `(v  1 e 1 0 ]
+"190
+[v _WriteNibble WriteNibble `(v  1 e 1 0 ]
+"202
+[v _WriteByte WriteByte `(v  1 e 1 0 ]
+"209
+[v _EnablePulse EnablePulse `(v  1 e 1 0 ]
+"220
+[v _WritePin WritePin `(v  1 e 1 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 C:\Users\NoName\Desktop\MPLAB\PIC16F877A\main.c
+[v _main main `(v  1 e 1 0 ]
+"14 C:\Users\NoName\Desktop\MPLAB/lcd.c
+[v __port _port `*.39VEuc  1 e 2 0 ]
+"15
+[v _LCD_RS LCD_RS `uc  1 e 1 0 ]
+[v _LCD_EN LCD_EN `uc  1 e 1 0 ]
+[v _LCD_D4 LCD_D4 `uc  1 e 1 0 ]
+[v _LCD_D5 LCD_D5 `uc  1 e 1 0 ]
+[v _LCD_D6 LCD_D6 `uc  1 e 1 0 ]
+[v _LCD_D7 LCD_D7 `uc  1 e 1 0 ]
+"16
+[v __displaycontrol _displaycontrol `uc  1 e 1 0 ]
+"341 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1500
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"22 C:\Users\NoName\Desktop\MPLAB\PIC16F877A\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"40
+} 0
+"102 C:\Users\NoName\Desktop\MPLAB/lcd.c
+[v _LCD_PutS LCD_PutS `(v  1 e 1 0 ]
+{
+[v LCD_PutS@_str _str `*.24uc  1 a 1 wreg ]
+"105
+[v LCD_PutS@i i `uc  1 a 1 9 ]
+"102
+[v LCD_PutS@_str _str `*.24uc  1 a 1 wreg ]
+"104
+[v LCD_PutS@_str _str `*.24uc  1 a 1 10 ]
+"108
+} 0
+"75
+[v _LCD_Goto LCD_Goto `(v  1 e 1 0 ]
+{
+[v LCD_Goto@col col `uc  1 a 1 wreg ]
+[v LCD_Goto@col col `uc  1 a 1 wreg ]
+[v LCD_Goto@row row `uc  1 p 1 8 ]
+"77
+[v LCD_Goto@col col `uc  1 a 1 11 ]
+"85
+} 0
+"32
+[v _LCD_Begin LCD_Begin `(v  1 e 1 0 ]
+{
+"34
+[v LCD_Begin@_function_set _function_set `uc  1 a 1 0 ]
+"32
+[v LCD_Begin@lines lines `uc  1 p 1 10 ]
+"72
+} 0
+"88
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"93
+} 0
+"202
+[v _WriteByte WriteByte `(v  1 e 1 0 ]
+{
+[v WriteByte@b b `uc  1 a 1 wreg ]
+[v WriteByte@b b `uc  1 a 1 wreg ]
+"204
+[v WriteByte@b b `uc  1 a 1 7 ]
+"206
+} 0
+"190
+[v _WriteNibble WriteNibble `(v  1 e 1 0 ]
+{
+[v WriteNibble@b b `uc  1 a 1 wreg ]
+[v WriteNibble@b b `uc  1 a 1 wreg ]
+"192
+[v WriteNibble@b b `uc  1 a 1 5 ]
+"199
+} 0
+"209
+[v _EnablePulse EnablePulse `(v  1 e 1 0 ]
+{
+"217
+} 0
+"220
+[v _WritePin WritePin `(v  1 e 1 0 ]
+{
+[v WritePin@_pin _pin `uc  1 a 1 wreg ]
+[v WritePin@_pin _pin `uc  1 a 1 wreg ]
+[v WritePin@val val `uc  1 p 1 0 ]
+"222
+[v WritePin@_pin _pin `uc  1 a 1 3 ]
+"226
+} 0
+"19
+[v _LCD LCD `(v  1 e 1 0 ]
+{
+[v LCD@_p _p `*.39VEuc  1 p 2 0 ]
+[v LCD@rs rs `uc  1 p 1 2 ]
+[v LCD@en en `uc  1 p 1 3 ]
+[v LCD@d4 d4 `uc  1 p 1 4 ]
+"20
+[v LCD@d5 d5 `uc  1 p 1 5 ]
+[v LCD@d6 d6 `uc  1 p 1 6 ]
+[v LCD@d7 d7 `uc  1 p 1 7 ]
+"29
+} 0
